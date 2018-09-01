@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "js-yaml": "^3.12.0"
+  },
+  "name": "site-pre-filter",
+  "description": "a package for web site content filter , simple function just for test ",
+  "repository": {
+    
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Restry Louis <michael.wei@foxmail.com> (https://www.restry.cn)",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "babel src -d lib",
+    "start": "node lib/server.js"
+  }
+}
