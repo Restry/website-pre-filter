@@ -80,7 +80,7 @@ if (process.argv.length <= 2) {
   console.log('请指定配置文件地址');
 }
 else {
-  app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
+  app.listen(process.argv[2], function () {
+    console.log(`app listening on port ${process.argv[2]}!`);
   });
 }

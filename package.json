@@ -12,11 +12,14 @@
     
   },
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "author": "Restry Louis <michael.wei@foxmail.com> (https://www.restry.cn)",
   "license": "MIT",
   "scripts": {
     "prestart": "babel src -d lib",
-    "start": "node lib/server.js"
+    "start": "node lib/server.js 8000"
+  },
+  "bin": {
+    "sitefilter": "./bin/sitefilter"
   }
 }
