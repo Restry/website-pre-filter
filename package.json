@@ -8,10 +8,8 @@
   },
   "name": "site-pre-filter",
   "description": "a package for web site content filter , simple function just for test ",
-  "repository": {
-    
-  },
-  "version": "1.0.0",
+  "repository": {},
+  "version": "1.0.1",
   "main": "src/server.js",
   "author": "Restry Louis <michael.wei@foxmail.com> (https://www.restry.cn)",
   "license": "MIT",
